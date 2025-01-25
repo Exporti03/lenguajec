@@ -1,1 +1,1 @@
-# lenguajec
+# lenguajeparaestudio de programacion
