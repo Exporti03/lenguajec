@@ -1,1 +1,0 @@
-# lenguajeparaestudio de programacion
