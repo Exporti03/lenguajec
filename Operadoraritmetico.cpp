@@ -4,7 +4,7 @@
 
 int main() {
 
-    int estudiantes = 20;
+    int estudiantes = 21;
     //SUMA
     //estudiante = estudiante + 2;
     //estudiante += 2;
