@@ -30,7 +30,6 @@ int main() {
         default:
             std::cout << "Calificacion invalida";
             break;
-            
     }
 
     return 0;
