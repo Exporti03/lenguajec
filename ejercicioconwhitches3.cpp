@@ -1,35 +1,39 @@
-double temp;
-char op;
+#include <iostream>
+using namespace std;
 
-std::cout << "####CONVERSION DE TEMPERATURA####\n";
-std::cout << "F = Fahrenheit\n";
-std::cout << "C = Celsius\n";
-std::cout << "A que unidad te gustaria convertir? ";
-std::cin >> op;
+int main() {
+    double temp;
+    char op;
 
-switch(op) {
-    case 'F':
-    case 'f':
-        std::cout << "Ingrese temperatura en celsius: ";
-        std::cin >> temp;
+    cout << "####CONVERSION DE TEMPERATURA####\n";
+    cout << "F = Fahrenheit\n";
+    cout << "C = Celsius\n";
+    cout << "A que unidad te gustaria convertir? ";
+    cin >> op;
+
+    switch(op) {
+        case 'F':
+        case 'f':
+            cout << "Ingrese temperatura en celsius: ";
+            cin >> temp;
+            
+            temp = 1.8 * temp + 32;
+            cout << "Temperatura es " << temp << " Grados Fahrenheit\n";
+            break;
         
-        temp = 1.8 * temp + 32;
-        std::cout << "Temperatura es " << temp << " Grados Fahrenheit\n";
-        break;
-    
-    case 'C':
-    case 'c':
-        std::cout << "Ingrese temperatura en fahrenheit: ";
-        std::cin >> temp;
-        
-        temp = (temp - 32) / 1.8;
-        std::cout << "Temperatura es " << temp << " Grados Celsius\n";
-        break;
+        case 'C':
+        case 'c':
+            cout << "Ingrese temperatura en fahrenheit: ";
+            cin >> temp;
+            
+            temp = (temp - 32) / 1.8;
+            cout << "Temperatura es " << temp << " Grados Celsius\n";
+            break;
 
-    default:
-        std::cout << "Ingrese porfavor F o C\n";
-        break;
+        default:
+            cout << "Ingrese porfavor F o C\n";
+            break;
+    }
+
+    return 0;
 }
-
-return 0;
-   
