@@ -1,10 +1,18 @@
 {
+<<<<<<< HEAD
     "version": "2.0.0",
     "tasks": [
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe compilar archivo activo",
             "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+=======
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe compilar archivo activo",
+            "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+>>>>>>> 05f6493461edf4a2c0df6dfb7416e6c1c43f4050
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -21,7 +29,15 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
+<<<<<<< HEAD
             }
         }
     ]
+=======
+            },
+            "detail": "Tarea generada por el depurador."
+        }
+    ],
+    "version": "2.0.0"
+>>>>>>> 05f6493461edf4a2c0df6dfb7416e6c1c43f4050
 }

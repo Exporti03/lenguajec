@@ -50,5 +50,10 @@
         "text_encoding": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
+<<<<<<< HEAD
     }
+=======
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+>>>>>>> 05f6493461edf4a2c0df6dfb7416e6c1c43f4050
 }
