@@ -2,28 +2,22 @@
 using namespace std;
 
 int main() {
+    int nota;
+    cout << "Ingresa tu calificacion (0-100): ";
+    cin >> nota;
 
-    int calificacion;
-    
-    cout << "Ingresa la calificacion: ";
-    cin >> calificacion;
-
-    
-
-    if ( calificacion >= 90 ){
-
-        cout <<"calificacion excelente";
-
+    if (nota < 60) {
+        cout << "Reprobado." << endl;
+    } 
+    else if (nota >= 60 && nota <= 89) {
+        cout << "Aprobado." << endl;
+    } 
+    else if (nota >= 90 && nota <= 100) {
+        cout << "¡Excelente!" << endl;
+    } 
+    else {
+        cout << "Nota invalida." << endl;
     }
 
-    else if ( calificacion <= 89 && calificacion >= 60 ){
-
-        cout <<"Calificacion es buena";
-
-    }
-    else{
-        cout <<"calificacion reprobada";
-    }
-
-  return 0;
+    return 0;
 }
