@@ -2,43 +2,88 @@
 using namespace std;
 
 int main() {
-    int dia;
+    int mes;
 
-    cout << "Ingrese un numero del 1 al 7: ";
-    cin >> dia;
+    cout <<"Ingrese numeros del 1  al 12: " << endl;
+    cin >> mes;
 
-    switch (dia) {  
-    case 1:         
-        cout << "dia Lunes" << endl;
-        break;     
+    switch (mes){
+    
+    case 1:
+        cout << "Mes de Enero" << endl;
+        break;
+    
+
+    
     case 2:
-        cout << "dia Martes" << endl;
+        cout << "Mes de Febrero" << endl;
         break;
+    
 
+    
     case 3:
-        cout << "dia Miercoles" << endl;
+        cout << "Mes de Marzo" << endl;
         break;
+    
 
+    
     case 4:
-        cout << "dia Jueves" << endl;
+        cout << "Mes de Abril" << endl;
         break;
+    
 
+    
     case 5:
-        cout << "dia Viernes" << endl;
+        cout << "Mes de Mayo" << endl;
         break;
+    
 
+    
     case 6:
-        cout << "dia Sabado" << endl;
+        cout << "Mes de Junio" << endl;
         break;
+    
 
     case 7:
-        cout << "dia Domingo" << endl;
+        cout << "Mes de Julio" << endl;
         break;
+    
 
-    default:
-        cout << "Numero invalido" << endl;
+    
+    case 8:
+        cout << "Mes de Agosto" << endl;
         break;
+    
+
+    
+    case 9:
+        cout << "Mes de Septiembre" << endl;
+        break;
+    
+
+      
+    case 10:
+        cout << "Mes de Octubre" << endl;
+        break;
+    
+
+      
+    case 11:
+        cout << "Mes de noviembre" << endl;
+        break;
+    
+
+      
+    case 12:
+        cout << "Mes de Diciembre" << endl;
+        break;
+    
+    default:
+
+    cout << "Numero errado";
+
     }
+    
 
     return 0;
 }
