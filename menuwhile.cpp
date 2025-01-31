@@ -5,13 +5,30 @@ using namespace std;
 
 int main(){
 
-    int contador = 10;
+    int opcion;
 
-    while ( contador >= 0) {
+    while (true) {
 
-        cout << contador << " ";
+        cout << "\nMenu:\n1. Saludar:\n2. Depedir:\n3. Salir:\nelige: " << endl;
 
-        contador--;
+        cin >> opcion;
+
+        if (opcion == 3) break;
+
+        switch (opcion)
+        {
+        case 1: cout << "Hola Chico\n"; break;
+
+        case 2: cout << "Chao muchacho\n"; break;
+        
+        default:
+        cout << "Opcion invalida";
+
+            break;
+        }
+
+     
+        
 
     }
         
