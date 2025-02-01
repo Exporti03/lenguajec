@@ -3,9 +3,9 @@ using namespace std;
 
 int main() {
     int suma = 0;
-    int numero = 5;
+    int numero = 1;
     
-    while (numero <= 5) {
+    while (numero <= 10) {
         suma += numero;
         numero++;
     }
